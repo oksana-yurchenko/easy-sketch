@@ -152,11 +152,11 @@ ul {
 
 .skills-section {
     padding-top: 35px;
-    padding-bottom: 55px;
+    padding-bottom: 75px;
 }
 
 .wrapper-skills {
-    width: 660px;
+    width: 645px;
     margin: 0 auto;
 }
 
@@ -166,7 +166,6 @@ ul {
 
 .skills-name,
 .skills-degree {
-    width: 285px;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -175,14 +174,18 @@ ul {
 }
 
 .skills-name {
+    width: 270px;
     text-align: right;
     font-size: 30px;
     line-height: 30px;
     letter-spacing: 2px;
     color: #333;
+    padding-top: 5px;
 }
 
 .skills-degree {
+    width: 285px;
+    padding-top: 8px;
     padding-bottom: 10px;
 }
 
@@ -214,20 +217,16 @@ ul {
 }
 
 .wrapper-contact .section-title {
-    margin-bottom: 45px;
+    margin-bottom: 47px;
 }
 
 .contact-info-section {
-    width: 164px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 165px;
+    height: 183px;
     color: #888;
-}
-
-.contact-info-phone {
-    margin-bottom: 27px;
-}
-
-.contact-info-email {
-    margin-bottom: 25px;
 }
 
 .contact-info-item-name {
@@ -311,7 +310,7 @@ ul {
 }
 
 .wrapper-footer {
-    width: 888px;
+    width: 890px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
