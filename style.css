@@ -1,0 +1,334 @@
+@font-face {
+    font-family: "Segoe UI";
+    src: url("fonts/SegoeUI.ttf") format("ttf");
+    src: url("fonts/SegoeUI.woff") format("woff");
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 16px / 18px "Open Sans", sans-serif;
+    color: #000;
+    background-color: #fff;
+    letter-spacing: 1px;
+}
+
+ul {
+	list-style: none;
+}
+
+/*Header*/
+
+.page-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    background: #333333 url("img/bg.png") no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 100%;
+}
+
+.logo {
+    font-family: "Tahoma", sans-serif;
+    letter-spacing: 1px;
+}
+
+.logo-header {
+    font-size: 22px;
+    line-height: 22px;
+    margin-left: 125px;
+}
+
+.header-navigation {
+    width: 335px;
+    margin-right: 60px;
+}
+
+.navigation-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation-list-item-link {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 8px 16px 16px 7px;
+}
+
+.navigation-list-item-link:hover {
+    border-bottom: 2px solid #fff;
+    padding-bottom: 14px;
+}
+
+.header-promo {
+    color: #fefefe;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.page-title {
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    letter-spacing: 5px;
+}
+
+.ad-text {
+    font-size: 30px;
+    line-height: 30px;
+    font-style: italic;
+}
+
+/* Section About goals*/
+
+.wrapper-goals {
+    width: 870px;
+    margin: 0 auto;
+    padding-top: 59px;
+    padding-bottom: 59px;
+}
+
+.section-title {
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.items-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.items-container-goals {
+    justify-content: space-around;
+}
+
+.goals-item {
+    width: 305px;
+}
+
+.goals-item:first-child {
+    text-align: right;
+}
+
+.goals-item-title {
+    font-size: 22px;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 17px;
+}
+
+.photo {
+    border-radius: 50%;
+}
+
+/* Section Skills */
+
+.skills-section,
+.contact-section {
+    border-top: 1px solid #ccc;
+}
+
+.skills-section {
+    padding-top: 35px;
+    padding-bottom: 55px;
+}
+
+.wrapper-skills {
+    width: 660px;
+    margin: 0 auto;
+}
+
+.items-container-skills {
+    height: 230px;
+}
+
+.skills-name,
+.skills-degree {
+    width: 285px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.skills-name {
+    text-align: right;
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    color: #333;
+}
+
+.skills-degree {
+    padding-bottom: 10px;
+}
+
+.skills-degree-rate {
+    display: flex;
+    justify-content: space-between;
+}
+
+.point {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #9c9a9a;
+}
+
+.black-point {
+    background: #333333;
+}
+
+/* Section Contact */
+
+.wrapper-contact {
+    width: 740px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 90px;
+    font: 15px;
+    line-height: 15px;
+}
+
+.wrapper-contact .section-title {
+    margin-bottom: 45px;
+}
+
+.contact-info-section {
+    width: 164px;
+    color: #888;
+}
+
+.contact-info-phone {
+    margin-bottom: 27px;
+}
+
+.contact-info-email {
+    margin-bottom: 25px;
+}
+
+.contact-info-item-name {
+    display: block;
+    color: #000
+}
+
+.item-phone-number {
+    margin-bottom: 13px;
+}
+
+.item-email {
+    margin-bottom: 16px;
+}
+
+.item-skype {
+    margin-bottom: 12px;
+}
+
+.contact-form-section {
+    width: 437px;
+    padding-top: 15px;
+}
+
+.input-field,
+.textarea-field,
+.btn {
+    font-family: "Segoe UI";
+    font-size: 15px;
+    line-height: 14px;
+    letter-spacing: 1px;
+}
+
+.input-field,
+.textarea-field {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid #919191;
+    padding: 10px 8px;
+    color: #838181;
+}
+
+.textarea-field {
+    resize: none;
+    height: 89px;
+}
+
+.name-field {
+    margin-bottom: 19px;
+}
+
+.email-field {
+    padding-top: 6px;
+    padding-bottom: 12px;
+}
+
+.email-field,
+.textarea-field {
+    margin-bottom: 27px;
+}
+
+.btn {
+    display: block;
+    width: 166px;
+    margin: 0 auto;
+    background-color: #333333;
+    border: none;
+    color: #fff;
+    padding-top: 9px;
+    padding-bottom: 8px;
+    text-transform: uppercase;
+}
+
+/* Footer */
+
+.page-footer {
+    background-color: #333333;
+    color: #fffefe;
+    font-size: 15px;
+}
+
+.wrapper-footer {
+    width: 888px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 43px;
+    padding-bottom: 65px;
+}
+
+.contact-info-footer {
+    margin-bottom: 5px;
+}
+
+.contact-info-footer:last-child {
+    margin-bottom: 0;
+}
+
+.logo-footer {
+    font-size: 41px;
+    line-height: 19px;
+    margin-top: 17px;
+}
